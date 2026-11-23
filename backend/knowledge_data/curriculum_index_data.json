@@ -1,0 +1,1167 @@
+{
+  "subjects": [
+    {
+      "id": "dsa",
+      "title": "Data Structures & Algorithms (DSA)",
+      "parts": [
+        {
+          "id": "dsa_part_1",
+          "title": "PART ONE \u25a0 PROGRAMMING BASICS & ALGORITHMIC ANALYSIS",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "title": "Chapter 1: Programming Primitives & Memory Model",
+              "clean_title": "Programming Primitives & Memory Model",
+              "lessons": [
+                {
+                  "code": "1.1",
+                  "title": "Variables, Primitive Data Types, and Memory Footprint"
+                },
+                {
+                  "code": "1.2",
+                  "title": "Pointers, Memory Addresses, and Dereferencing"
+                },
+                {
+                  "code": "1.3",
+                  "title": "Stack Memory Allocation vs. Dynamic Heap Allocation"
+                },
+                {
+                  "code": "1.4",
+                  "title": "Function Call Mechanisms: Pass-by-Value vs. Pass-by-Reference"
+                },
+                {
+                  "code": "1.5",
+                  "title": "Bitwise Operations and Bitmasks"
+                }
+              ]
+            },
+            {
+              "chapter_number": 2,
+              "title": "Chapter 2: Asymptotic Analysis & Algorithmic Complexity",
+              "clean_title": "Asymptotic Analysis & Algorithmic Complexity",
+              "lessons": [
+                {
+                  "code": "2.1",
+                  "title": "Why Complexity Matters: Time and Space Bounds"
+                },
+                {
+                  "code": "2.2",
+                  "title": "Asymptotic Notations: Big-O, Big-Omega, and Big-Theta"
+                },
+                {
+                  "code": "2.3",
+                  "title": "Best, Average, and Worst-Case Analysis"
+                },
+                {
+                  "code": "2.4",
+                  "title": "Space Complexity and In-Place Invariants"
+                },
+                {
+                  "code": "2.5",
+                  "title": "Solving Recurrences: Recursion Tree Method and Master Theorem"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dsa_part_2",
+          "title": "PART TWO \u25a0 LINEAR DATA STRUCTURES",
+          "chapters": [
+            {
+              "chapter_number": 3,
+              "title": "Chapter 3: Arrays, Strings & Dynamic Vectors",
+              "clean_title": "Arrays, Strings & Dynamic Vectors",
+              "lessons": [
+                {
+                  "code": "3.1",
+                  "title": "Contiguous Memory Layout and Base Address Math (O(1) Access)"
+                },
+                {
+                  "code": "3.2",
+                  "title": "Basic Array Operations: Traversal, Insertion, and In-Place Deletion"
+                },
+                {
+                  "code": "3.3",
+                  "title": "Dynamic Vectors: Capacity, Geometric Growth, and Amortized O(1) Time"
+                },
+                {
+                  "code": "3.4",
+                  "title": "Strings: Character Encodings (ASCII/Unicode), Immutability, and Traversal"
+                },
+                {
+                  "code": "3.5",
+                  "title": "Two-Pointer Technique and Sliding Window Optimization"
+                }
+              ]
+            },
+            {
+              "chapter_number": 4,
+              "title": "Chapter 4: Linked Lists",
+              "clean_title": "Linked Lists",
+              "lessons": [
+                {
+                  "code": "4.1",
+                  "title": "The Node Concept: Data Payload and Pointer References"
+                },
+                {
+                  "code": "4.2",
+                  "title": "Singly Linked Lists: Head/Tail Traversal and Edge-Case Mutations"
+                },
+                {
+                  "code": "4.3",
+                  "title": "Doubly Linked Lists: Bidirectional Traversal and Sentinel Nodes"
+                },
+                {
+                  "code": "4.4",
+                  "title": "Circular Linked Lists: Structure and Use Cases"
+                },
+                {
+                  "code": "4.5",
+                  "title": "Classic Linked List Algorithms: In-Place Reversal and Floyd\u2019s Cycle Detection"
+                }
+              ]
+            },
+            {
+              "chapter_number": 5,
+              "title": "Chapter 5: Stacks and Queues",
+              "clean_title": "Stacks and Queues",
+              "lessons": [
+                {
+                  "code": "5.1",
+                  "title": "The Stack Abstract Data Type (ADT): LIFO Contract"
+                },
+                {
+                  "code": "5.2",
+                  "title": "Stack Implementations: Array vs. Linked List Trade-offs"
+                },
+                {
+                  "code": "5.3",
+                  "title": "Stack Applications: Bracket Validation and Infix/Postfix Evaluation"
+                },
+                {
+                  "code": "5.4",
+                  "title": "The Queue ADT: FIFO Contract and Queue Underflow/Overflow"
+                },
+                {
+                  "code": "5.5",
+                  "title": "Circular Ring Buffers and Double-Ended Queues (Deque)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dsa_part_3",
+          "title": "PART THREE \u25a0 RECURSION, BACKTRACKING & SORTING",
+          "chapters": [
+            {
+              "chapter_number": 6,
+              "title": "Chapter 6: Recursion & Divide-and-Conquer",
+              "clean_title": "Recursion & Divide-and-Conquer",
+              "lessons": [
+                {
+                  "code": "6.1",
+                  "title": "The Anatomy of Recursion: Base Cases and Reduction Steps"
+                },
+                {
+                  "code": "6.2",
+                  "title": "The Call Stack Trace, Frame Allocation, and Stack Overflow"
+                },
+                {
+                  "code": "6.3",
+                  "title": "Tail Call Optimization (TCO)"
+                },
+                {
+                  "code": "6.4",
+                  "title": "The Divide-and-Conquer Paradigm"
+                }
+              ]
+            },
+            {
+              "chapter_number": 7,
+              "title": "Chapter 7: Backtracking",
+              "clean_title": "Backtracking",
+              "lessons": [
+                {
+                  "code": "7.1",
+                  "title": "State Space Trees and Depth-First Search Exploration"
+                },
+                {
+                  "code": "7.2",
+                  "title": "Generating Subsets, Combinations, and Permutations"
+                },
+                {
+                  "code": "7.3",
+                  "title": "The N-Queens Problem and Constraint Pruning"
+                },
+                {
+                  "code": "7.4",
+                  "title": "Sudoku Solver and Grid Backtracking"
+                }
+              ]
+            },
+            {
+              "chapter_number": 8,
+              "title": "Chapter 8: Searching & Sorting",
+              "clean_title": "Searching & Sorting",
+              "lessons": [
+                {
+                  "code": "8.1",
+                  "title": "Linear Search vs. Binary Search on Monotonic Ranges"
+                },
+                {
+                  "code": "8.2",
+                  "title": "Binary Search Variants: Lower Bound, Upper Bound, and Rotated Arrays"
+                },
+                {
+                  "code": "8.3",
+                  "title": "Elementary Sorts: Bubble Sort, Selection Sort, and Insertion Sort"
+                },
+                {
+                  "code": "8.4",
+                  "title": "Logarithmic Sorts: Merge Sort (Stable) and Quicksort Partitioning"
+                },
+                {
+                  "code": "8.5",
+                  "title": "Non-Comparison Sorts: Counting Sort and Radix Sort"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dsa_part_4",
+          "title": "PART FOUR \u25a0 HIERARCHICAL STRUCTURES: TREES & HEAPS",
+          "chapters": [
+            {
+              "chapter_number": 9,
+              "title": "Chapter 9: Binary Trees",
+              "clean_title": "Binary Trees",
+              "lessons": [
+                {
+                  "code": "9.1",
+                  "title": "Tree Terminology: Root, Parent, Child, Leaf, Depth, and Height"
+                },
+                {
+                  "code": "9.2",
+                  "title": "Classifications: Full, Complete, Perfect, and Degenerate Trees"
+                },
+                {
+                  "code": "9.3",
+                  "title": "Depth-First Traversals: Inorder, Preorder, and Postorder"
+                },
+                {
+                  "code": "9.4",
+                  "title": "Breadth-First Level-Order Traversal using Queues"
+                },
+                {
+                  "code": "9.5",
+                  "title": "Tree Height, Diameter, and Maximum Path Sum"
+                }
+              ]
+            },
+            {
+              "chapter_number": 10,
+              "title": "Chapter 10: Binary Search Trees (BST) & Self-Balancing Trees",
+              "clean_title": "Binary Search Trees (BST) & Self-Balancing Trees",
+              "lessons": [
+                {
+                  "code": "10.1",
+                  "title": "The BST Invariant: Left Subtree < Node < Right Subtree"
+                },
+                {
+                  "code": "10.2",
+                  "title": "BST Search, Insertion, and Deletion (Leaf, Single-Child, Two-Child)"
+                },
+                {
+                  "code": "10.3",
+                  "title": "Skewed Trees and Degeneration into O(n) Lists"
+                },
+                {
+                  "code": "10.4",
+                  "title": "AVL Trees: Height Balance Factors and Rotations (LL, RR, LR, RL)"
+                },
+                {
+                  "code": "10.5",
+                  "title": "Red-Black Trees: Color Invariants and Black-Height Guarantees"
+                }
+              ]
+            },
+            {
+              "chapter_number": 11,
+              "title": "Chapter 11: Heaps and Priority Queues",
+              "clean_title": "Heaps and Priority Queues",
+              "lessons": [
+                {
+                  "code": "11.1",
+                  "title": "Array Representation of Complete Binary Trees (2i+1, 2i+2)"
+                },
+                {
+                  "code": "11.2",
+                  "title": "Max-Heap vs. Min-Heap Properties"
+                },
+                {
+                  "code": "11.3",
+                  "title": "Sift-Up and Sift-Down Heapify Mechanics"
+                },
+                {
+                  "code": "11.4",
+                  "title": "Linear-Time Heap Construction: O(n) build_heap"
+                },
+                {
+                  "code": "11.5",
+                  "title": "Heapsort and Top-K Streaming Elements"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dsa_part_5",
+          "title": "PART FIVE \u25a0 GRAPHS & DYNAMIC PROGRAMMING (ADVANCED)",
+          "chapters": [
+            {
+              "chapter_number": 12,
+              "title": "Chapter 12: Graph Theory & Traversals",
+              "clean_title": "Graph Theory & Traversals",
+              "lessons": [
+                {
+                  "code": "12.1",
+                  "title": "Graph Definitions: Directed, Undirected, Weighted, Cyclic vs. DAG"
+                },
+                {
+                  "code": "12.2",
+                  "title": "Storage: Adjacency Matrix vs. Adjacency List"
+                },
+                {
+                  "code": "12.3",
+                  "title": "Breadth-First Search (BFS): Shortest Path on Unweighted Graphs"
+                },
+                {
+                  "code": "12.4",
+                  "title": "Depth-First Search (DFS) and Cycle Detection"
+                },
+                {
+                  "code": "12.5",
+                  "title": "Topological Sorting: Kahn\u2019s Algorithm and DFS Stack"
+                }
+              ]
+            },
+            {
+              "chapter_number": 13,
+              "title": "Chapter 13: Graph Optimization Algorithms",
+              "clean_title": "Graph Optimization Algorithms",
+              "lessons": [
+                {
+                  "code": "13.1",
+                  "title": "Dijkstra\u2019s Algorithm: Greedy Single-Source Shortest Path"
+                },
+                {
+                  "code": "13.2",
+                  "title": "Bellman-Ford Algorithm: Negative Weight Edges and Cycle Detection"
+                },
+                {
+                  "code": "13.3",
+                  "title": "Minimum Spanning Trees (MST): Prim\u2019s Algorithm"
+                },
+                {
+                  "code": "13.4",
+                  "title": "Disjoint Set Union (DSU / Union-Find) with Path Compression"
+                },
+                {
+                  "code": "13.5",
+                  "title": "Kruskal\u2019s Algorithm for Minimum Spanning Trees"
+                }
+              ]
+            },
+            {
+              "chapter_number": 14,
+              "title": "Chapter 14: Dynamic Programming (DP)",
+              "clean_title": "Dynamic Programming (DP)",
+              "lessons": [
+                {
+                  "code": "14.1",
+                  "title": "Overlapping Subproblems and Optimal Substructure"
+                },
+                {
+                  "code": "14.2",
+                  "title": "Top-Down Memoization vs. Bottom-Up Tabulation"
+                },
+                {
+                  "code": "14.3",
+                  "title": "1D DP Patterns: Fibonacci, Climbing Stairs, and Minimum Coin Change"
+                },
+                {
+                  "code": "14.4",
+                  "title": "2D DP Patterns: 0/1 Knapsack Problem and Unique Grid Paths"
+                },
+                {
+                  "code": "14.5",
+                  "title": "DP on Strings: Longest Common Subsequence (LCS) and Edit Distance"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dbms",
+      "title": "Database Management Systems (DBMS)",
+      "parts": [
+        {
+          "id": "dbms_part_1",
+          "title": "PART ONE \u25a0 RELATIONAL MODEL & SQL",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "title": "Chapter 1: Introduction to Database Systems",
+              "clean_title": "Introduction to Database Systems",
+              "lessons": [
+                {
+                  "code": "1.1",
+                  "title": "File Systems vs. DBMS: Data Redundancy, Inconsistency, and Isolation"
+                },
+                {
+                  "code": "1.2",
+                  "title": "Three-Schema Architecture: Physical, Conceptual, and External Views"
+                },
+                {
+                  "code": "1.3",
+                  "title": "Data Independence: Logical vs. Physical Data Independence"
+                },
+                {
+                  "code": "1.4",
+                  "title": "DBMS Component Modules and Storage Architecture"
+                }
+              ]
+            },
+            {
+              "chapter_number": 2,
+              "title": "Chapter 2: Relational Data Model & ER Modeling",
+              "clean_title": "Relational Data Model & ER Modeling",
+              "lessons": [
+                {
+                  "code": "2.1",
+                  "title": "Entity-Relationship (ER) Modeling: Entities, Attributes, Relationships"
+                },
+                {
+                  "code": "2.2",
+                  "title": "Cardinality Ratios and Participation Constraints"
+                },
+                {
+                  "code": "2.3",
+                  "title": "Mapping ER Diagrams to Relational Tables"
+                },
+                {
+                  "code": "2.4",
+                  "title": "Relational Concepts: Relations, Tuples, Attributes, Domains"
+                },
+                {
+                  "code": "2.5",
+                  "title": "Key Constraints: Candidate Keys, Primary Keys, Super Keys, Foreign Keys"
+                }
+              ]
+            },
+            {
+              "chapter_number": 3,
+              "title": "Chapter 3: SQL Declarative Language",
+              "clean_title": "SQL Declarative Language",
+              "lessons": [
+                {
+                  "code": "3.1",
+                  "title": "Data Definition Language (DDL): CREATE, ALTER, DROP, TRUNCATE"
+                },
+                {
+                  "code": "3.2",
+                  "title": "Data Manipulation Language (DML): INSERT, UPDATE, DELETE, SELECT"
+                },
+                {
+                  "code": "3.3",
+                  "title": "Grouping and Aggregations: GROUP BY, HAVING, and Window Functions"
+                },
+                {
+                  "code": "3.4",
+                  "title": "Relational Joins: Inner, Left Outer, Right Outer, Full, and Self Joins"
+                },
+                {
+                  "code": "3.5",
+                  "title": "Subqueries, Nested Correlated Queries, and Views"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dbms_part_2",
+          "title": "PART TWO \u25a0 RELATIONAL ALGEBRA & NORMALIZATION",
+          "chapters": [
+            {
+              "chapter_number": 4,
+              "title": "Chapter 4: Relational Algebra",
+              "clean_title": "Relational Algebra",
+              "lessons": [
+                {
+                  "code": "4.1",
+                  "title": "Unary Operators: Selection (\u03c3) and Projection (\u03c0)"
+                },
+                {
+                  "code": "4.2",
+                  "title": "Set Operations: Union (\u222a), Intersection (\u2229), Difference (-)"
+                },
+                {
+                  "code": "4.3",
+                  "title": "Binary Operators: Cartesian Product (\u00d7) and Natural Joins (\u22c8)"
+                },
+                {
+                  "code": "4.4",
+                  "title": "Division Operator (\u00f7) and Tuple Relational Calculus (TRC)"
+                }
+              ]
+            },
+            {
+              "chapter_number": 5,
+              "title": "Chapter 5: Database Normalization",
+              "clean_title": "Database Normalization",
+              "lessons": [
+                {
+                  "code": "5.1",
+                  "title": "Anomalies in Unnormalized Schemas: Insertion, Deletion, and Update"
+                },
+                {
+                  "code": "5.2",
+                  "title": "Functional Dependencies (FDs) and Armstrong\u2019s Axioms"
+                },
+                {
+                  "code": "5.3",
+                  "title": "Attribute Closure Algorithms and Finding Candidate Keys"
+                },
+                {
+                  "code": "5.4",
+                  "title": "Minimal Covers and Canonical Covers of FDs"
+                },
+                {
+                  "code": "5.5",
+                  "title": "Normal Forms: First (1NF), Second (2NF), and Third (3NF)"
+                },
+                {
+                  "code": "5.6",
+                  "title": "Boyce-Codd Normal Form (BCNF)"
+                },
+                {
+                  "code": "5.7",
+                  "title": "Lossless-Join Decomposition and Dependency Preservation Verification"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dbms_part_3",
+          "title": "PART THREE \u25a0 TRANSACTIONS, CONCURRENCY & INDEXING",
+          "chapters": [
+            {
+              "chapter_number": 6,
+              "title": "Chapter 6: Transactions & Concurrency Control",
+              "clean_title": "Transactions & Concurrency Control",
+              "lessons": [
+                {
+                  "code": "6.1",
+                  "title": "Transaction States and the ACID Guarantees"
+                },
+                {
+                  "code": "6.2",
+                  "title": "Concurrency Anomalies: Dirty Reads, Lost Updates, Unrepeatable Reads"
+                },
+                {
+                  "code": "6.3",
+                  "title": "Schedules and Conflict Serializability: Precedence Graphs"
+                },
+                {
+                  "code": "6.4",
+                  "title": "View Serializability and Blind Writes"
+                },
+                {
+                  "code": "6.5",
+                  "title": "Lock-Based Concurrency: Shared (S) vs. Exclusive (X) Locks"
+                },
+                {
+                  "code": "6.6",
+                  "title": "Two-Phase Locking (2PL): Basic 2PL, Strict 2PL, and Rigorous 2PL"
+                },
+                {
+                  "code": "6.7",
+                  "title": "Deadlocks in DBMS: Wait-Die vs. Wound-Wait Prevention Schemes"
+                }
+              ]
+            },
+            {
+              "chapter_number": 7,
+              "title": "Chapter 7: Failure Recovery Systems",
+              "clean_title": "Failure Recovery Systems",
+              "lessons": [
+                {
+                  "code": "7.1",
+                  "title": "Failure Classifications: Transaction, System Crash, and Disk Failure"
+                },
+                {
+                  "code": "7.2",
+                  "title": "Log-Based Recovery and the Write-Ahead Logging (WAL) Rule"
+                },
+                {
+                  "code": "7.3",
+                  "title": "Deferred vs. Immediate Database Modification"
+                },
+                {
+                  "code": "7.4",
+                  "title": "Checkpoints and the ARIES Recovery Protocol (Analysis, Redo, Undo)"
+                }
+              ]
+            },
+            {
+              "chapter_number": 8,
+              "title": "Chapter 8: File Organization & B+ Tree Indexing",
+              "clean_title": "File Organization & B+ Tree Indexing",
+              "lessons": [
+                {
+                  "code": "8.1",
+                  "title": "Physical Storage: Heap Files, Sorted Files, and Record Formats"
+                },
+                {
+                  "code": "8.2",
+                  "title": "Indexing Fundamentals: Clustered vs. Non-Clustered Indexes"
+                },
+                {
+                  "code": "8.3",
+                  "title": "Dense vs. Sparse Indexes"
+                },
+                {
+                  "code": "8.4",
+                  "title": "B-Tree Index Architecture and Search Invariants"
+                },
+                {
+                  "code": "8.5",
+                  "title": "B+ Tree Indexing: Node Splitting, Leaf Chains, and Range Scanning"
+                },
+                {
+                  "code": "8.6",
+                  "title": "Static Hashing vs. Extendible Dynamic Hashing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "networks",
+      "title": "Computer Networks (CN)",
+      "parts": [
+        {
+          "id": "networks_part_1",
+          "title": "PART ONE \u25a0 FOUNDATIONS & THE PHYSICAL / DATA LINK LAYER",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "title": "Chapter 1: Introduction to Network Architecture",
+              "clean_title": "Introduction to Network Architecture",
+              "lessons": [
+                {
+                  "code": "1.1",
+                  "title": "Network Core: Packet Switching vs. Circuit Switching"
+                },
+                {
+                  "code": "1.2",
+                  "title": "Network Performance Metrics: Transmission, Propagation, Queuing Delays"
+                },
+                {
+                  "code": "1.3",
+                  "title": "Throughput, Bottleneck Links, and Packet Loss"
+                },
+                {
+                  "code": "1.4",
+                  "title": "The 5-Layer Internet Protocol Stack vs. The OSI 7-Layer Model"
+                },
+                {
+                  "code": "1.5",
+                  "title": "Encapsulation Headers and Protocol Data Units (PDUs)"
+                }
+              ]
+            },
+            {
+              "chapter_number": 2,
+              "title": "Chapter 2: Physical Layer & Data Link Layer Fundamentals",
+              "clean_title": "Physical Layer & Data Link Layer Fundamentals",
+              "lessons": [
+                {
+                  "code": "2.1",
+                  "title": "Guided vs. Unguided Transmission Media (Fiber, Copper, Radio)"
+                },
+                {
+                  "code": "2.2",
+                  "title": "Data Link Framing Techniques: Byte-Stuffing and Bit-Stuffing"
+                },
+                {
+                  "code": "2.3",
+                  "title": "Error Detection: Parity, Internet Checksum, and Cyclic Redundancy Check (CRC)"
+                },
+                {
+                  "code": "2.4",
+                  "title": "Elementary Flow Control: Stop-and-Wait Protocol"
+                },
+                {
+                  "code": "2.5",
+                  "title": "Sliding Window Protocols: Go-Back-N (GBN) and Selective Repeat (SR)"
+                }
+              ]
+            },
+            {
+              "chapter_number": 3,
+              "title": "Chapter 3: Media Access Control (MAC) & Local Area Networks",
+              "clean_title": "Media Access Control (MAC) & Local Area Networks",
+              "lessons": [
+                {
+                  "code": "3.1",
+                  "title": "Channel Partitioning Protocols: TDMA, FDMA, and CDMA"
+                },
+                {
+                  "code": "3.2",
+                  "title": "Random Access Protocols: ALOHA, Slotted ALOHA, and CSMA"
+                },
+                {
+                  "code": "3.3",
+                  "title": "CSMA/CD in Ethernet and Exponential Backoff Algorithm"
+                },
+                {
+                  "code": "3.4",
+                  "title": "Link-Layer Addressing: 48-bit MAC Addresses"
+                },
+                {
+                  "code": "3.5",
+                  "title": "Address Resolution Protocol (ARP) Mechanics"
+                },
+                {
+                  "code": "3.6",
+                  "title": "Ethernet Switches, Collision Domains, and Virtual LANs (VLANs)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "networks_part_2",
+          "title": "PART TWO \u25a0 THE NETWORK LAYER: DATA & CONTROL PLANE",
+          "chapters": [
+            {
+              "chapter_number": 4,
+              "title": "Chapter 4: Network Layer Data Plane (IP Addressing)",
+              "clean_title": "Network Layer Data Plane (IP Addressing)",
+              "lessons": [
+                {
+                  "code": "4.1",
+                  "title": "Network Layer Functions: Forwarding vs. Routing"
+                },
+                {
+                  "code": "4.2",
+                  "title": "IPv4 Header Fields, Fragmentation, and Reassembly"
+                },
+                {
+                  "code": "4.3",
+                  "title": "Classful Addressing vs. Classless Inter-Domain Routing (CIDR)"
+                },
+                {
+                  "code": "4.4",
+                  "title": "Subnetting Math: Subnet Masks, Network IDs, and Broadcast Addresses"
+                },
+                {
+                  "code": "4.5",
+                  "title": "Network Address Translation (NAT) and Private RFC 1918 Ranges"
+                },
+                {
+                  "code": "4.6",
+                  "title": "Dynamic Host Configuration Protocol (DHCP) and the IPv6 Header Format"
+                }
+              ]
+            },
+            {
+              "chapter_number": 5,
+              "title": "Chapter 5: Network Layer Control Plane (Routing Algorithms)",
+              "clean_title": "Network Layer Control Plane (Routing Algorithms)",
+              "lessons": [
+                {
+                  "code": "5.1",
+                  "title": "Static vs. Dynamic Adaptive Routing"
+                },
+                {
+                  "code": "5.2",
+                  "title": "Link-State Routing Algorithm (Dijkstra\u2019s Shortest Path)"
+                },
+                {
+                  "code": "5.3",
+                  "title": "Distance Vector Routing Algorithm (Bellman-Ford Distributed Equation)"
+                },
+                {
+                  "code": "5.4",
+                  "title": "The Count-to-Infinity Problem and Split Horizon with Poison Reverse"
+                },
+                {
+                  "code": "5.5",
+                  "title": "Intra-AS Routing: Open Shortest Path First (OSPF)"
+                },
+                {
+                  "code": "5.6",
+                  "title": "Inter-AS Routing: Border Gateway Protocol (BGP) and Autonomous Systems"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "networks_part_3",
+          "title": "PART THREE \u25a0 TRANSPORT & APPLICATION LAYERS",
+          "chapters": [
+            {
+              "chapter_number": 6,
+              "title": "Chapter 6: Transport Layer Protocols (TCP & UDP)",
+              "clean_title": "Transport Layer Protocols (TCP & UDP)",
+              "lessons": [
+                {
+                  "code": "6.1",
+                  "title": "Transport Layer Services: Process-to-Process Multiplexing and Demultiplexing"
+                },
+                {
+                  "code": "6.2",
+                  "title": "User Datagram Protocol (UDP): Connectionless Header and Real-Time Use Cases"
+                },
+                {
+                  "code": "6.3",
+                  "title": "Transmission Control Protocol (TCP): Connection-Oriented Guarantees"
+                },
+                {
+                  "code": "6.4",
+                  "title": "TCP 3-Way Handshake (SYN, SYN-ACK, ACK) and 4-Way Teardown"
+                },
+                {
+                  "code": "6.5",
+                  "title": "TCP Flow Control: Receiver Advertised Window (rwnd)"
+                },
+                {
+                  "code": "6.6",
+                  "title": "TCP Congestion Control: Slow Start, Congestion Avoidance, AIMD, Fast Retransmit"
+                }
+              ]
+            },
+            {
+              "chapter_number": 7,
+              "title": "Chapter 7: Application Layer Services & Network Security",
+              "clean_title": "Application Layer Services & Network Security",
+              "lessons": [
+                {
+                  "code": "7.1",
+                  "title": "Client-Server Architecture vs. Peer-to-Peer (P2P) Systems"
+                },
+                {
+                  "code": "7.2",
+                  "title": "Domain Name System (DNS): Hierarchical Servers, Caching, and Records (A, CNAME, MX)"
+                },
+                {
+                  "code": "7.3",
+                  "title": "Hypertext Transfer Protocol (HTTP): HTTP/1.1 Pipelines, HTTP/2 Multiplexing, HTTP/3 (QUIC)"
+                },
+                {
+                  "code": "7.4",
+                  "title": "Email Architecture: SMTP, POP3, and IMAP"
+                },
+                {
+                  "code": "7.5",
+                  "title": "Network Security: Symmetric vs. Asymmetric Encryption, TLS/SSL Handshake, HTTPS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "machine_learning",
+      "title": "Machine Learning (ML)",
+      "parts": [
+        {
+          "id": "machine_learning_part_1",
+          "title": "PART ONE \u25a0 FOUNDATIONS OF MACHINE LEARNING",
+          "chapters": [
+            {
+              "chapter_number": 1,
+              "title": "Chapter 1: Introduction to Learning Paradigms",
+              "clean_title": "Introduction to Learning Paradigms",
+              "lessons": [
+                {
+                  "code": "1.1",
+                  "title": "What is Machine Learning? (Mitchell's Definition: Task T, Performance P, Experience E)"
+                },
+                {
+                  "code": "1.2",
+                  "title": "Supervised Learning vs. Unsupervised Learning vs. Reinforcement Learning"
+                },
+                {
+                  "code": "1.3",
+                  "title": "The ML Pipeline: Data Collection, Preprocessing, Feature Engineering, Training, Evaluation"
+                },
+                {
+                  "code": "1.4",
+                  "title": "Parametric vs. Non-Parametric Models"
+                }
+              ]
+            },
+            {
+              "chapter_number": 2,
+              "title": "Chapter 2: Data Preprocessing & Feature Engineering",
+              "clean_title": "Data Preprocessing & Feature Engineering",
+              "lessons": [
+                {
+                  "code": "2.1",
+                  "title": "Feature Scaling: Min-Max Normalization vs. Z-Score Standardization"
+                },
+                {
+                  "code": "2.2",
+                  "title": "Handling Missing Data, Imputation, and Categorical Encoding (One-Hot, Ordinal)"
+                },
+                {
+                  "code": "2.3",
+                  "title": "Train, Validation, and Test Dataset Splitting"
+                },
+                {
+                  "code": "2.4",
+                  "title": "K-Fold Cross-Validation and Stratified Sampling"
+                },
+                {
+                  "code": "2.5",
+                  "title": "Dimensionality Reduction Foundations: Principal Component Analysis (PCA)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "machine_learning_part_2",
+          "title": "PART TWO \u25a0 SUPERVISED LEARNING: REGRESSION & CLASSIFICATION",
+          "chapters": [
+            {
+              "chapter_number": 3,
+              "title": "Chapter 3: Linear & Polynomial Regression",
+              "clean_title": "Linear & Polynomial Regression",
+              "lessons": [
+                {
+                  "code": "3.1",
+                  "title": "Simple Linear Regression: Hypothesis Function and Residuals"
+                },
+                {
+                  "code": "3.2",
+                  "title": "Cost Function: Mean Squared Error (MSE) Optimization"
+                },
+                {
+                  "code": "3.3",
+                  "title": "Optimization via Gradient Descent (Batch, Stochastic, Mini-Batch)"
+                },
+                {
+                  "code": "3.4",
+                  "title": "The Normal Equation Closed-Form Solution"
+                },
+                {
+                  "code": "3.5",
+                  "title": "Polynomial Regression and Non-Linear Curve Fitting"
+                }
+              ]
+            },
+            {
+              "chapter_number": 4,
+              "title": "Chapter 4: Classification & Logistic Regression",
+              "clean_title": "Classification & Logistic Regression",
+              "lessons": [
+                {
+                  "code": "4.1",
+                  "title": "Classification Problem Formulation and Decision Boundaries"
+                },
+                {
+                  "code": "4.2",
+                  "title": "Logistic Regression: The Sigmoid Activation Function"
+                },
+                {
+                  "code": "4.3",
+                  "title": "Log-Loss (Binary Cross-Entropy) Cost Function"
+                },
+                {
+                  "code": "4.4",
+                  "title": "Multiclass Classification: One-vs-Rest (OvR) and Softmax Regression"
+                },
+                {
+                  "code": "4.5",
+                  "title": "Evaluation Metrics: Confusion Matrix, Accuracy, Precision, Recall, F1-Score, and ROC-AUC"
+                }
+              ]
+            },
+            {
+              "chapter_number": 5,
+              "title": "Chapter 5: Generalization & Regularization",
+              "clean_title": "Generalization & Regularization",
+              "lessons": [
+                {
+                  "code": "5.1",
+                  "title": "Overfitting vs. Underfitting: The Bias-Variance Tradeoff"
+                },
+                {
+                  "code": "5.2",
+                  "title": "L2 Regularization (Ridge Regression): Weight Shrinkage"
+                },
+                {
+                  "code": "5.3",
+                  "title": "L1 Regularization (Lasso Regression): Sparsity and Feature Selection"
+                },
+                {
+                  "code": "5.4",
+                  "title": "ElasticNet Regularization and Hyperparameter Tuning (Grid Search vs. Random Search)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "machine_learning_part_3",
+          "title": "PART THREE \u25a0 NON-PARAMETRIC, TREE & ENSEMBLE MODELS",
+          "chapters": [
+            {
+              "chapter_number": 6,
+              "title": "Chapter 6: Instance-Based & Probabilistic Models",
+              "clean_title": "Instance-Based & Probabilistic Models",
+              "lessons": [
+                {
+                  "code": "6.1",
+                  "title": "K-Nearest Neighbors (KNN): Distance Metrics (Euclidean, Manhattan) and Choosing K"
+                },
+                {
+                  "code": "6.2",
+                  "title": "The Curse of Dimensionality in Distance-Based Models"
+                },
+                {
+                  "code": "6.3",
+                  "title": "Bayes' Theorem and Conditional Probability"
+                },
+                {
+                  "code": "6.4",
+                  "title": "Naive Bayes Classifier: Feature Independence Assumption and Text Classification"
+                }
+              ]
+            },
+            {
+              "chapter_number": 7,
+              "title": "Chapter 7: Decision Trees",
+              "clean_title": "Decision Trees",
+              "lessons": [
+                {
+                  "code": "7.1",
+                  "title": "Decision Tree Architecture: Root, Decision Nodes, and Leaf Classifications"
+                },
+                {
+                  "code": "7.2",
+                  "title": "Splitting Criteria: Gini Impurity vs. Entropy & Information Gain (ID3 / CART)"
+                },
+                {
+                  "code": "7.3",
+                  "title": "Continuous Feature Splitting Thresholds"
+                },
+                {
+                  "code": "7.4",
+                  "title": "Overfitting in Trees: Maximum Depth, Minimum Sample Split, and Pruning"
+                }
+              ]
+            },
+            {
+              "chapter_number": 8,
+              "title": "Chapter 8: Ensemble Learning & Random Forests",
+              "clean_title": "Ensemble Learning & Random Forests",
+              "lessons": [
+                {
+                  "code": "8.1",
+                  "title": "The Wisdom of Crowds: Ensemble Diversity and Error Reduction"
+                },
+                {
+                  "code": "8.2",
+                  "title": "Bootstrap Aggregating (Bagging): Random Sampling with Replacement"
+                },
+                {
+                  "code": "8.3",
+                  "title": "Random Forest Classifier: Feature Subsampling (sqrt(p)) and Out-of-Bag (OOB) Evaluation"
+                },
+                {
+                  "code": "8.4",
+                  "title": "Boosting Fundamentals: Sequential Weak Learners"
+                },
+                {
+                  "code": "8.5",
+                  "title": "AdaBoost, Gradient Boosting (GBM), and XGBoost"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "machine_learning_part_4",
+          "title": "PART FOUR \u25a0 SUPPORT VECTOR MACHINES & NEURAL NETWORKS",
+          "chapters": [
+            {
+              "chapter_number": 9,
+              "title": "Chapter 9: Support Vector Machines (SVM)",
+              "clean_title": "Support Vector Machines (SVM)",
+              "lessons": [
+                {
+                  "code": "9.1",
+                  "title": "Maximum Margin Classifiers and Hyperplanes"
+                },
+                {
+                  "code": "9.2",
+                  "title": "Hard-Margin vs. Soft-Margin SVM (C Parameter)"
+                },
+                {
+                  "code": "9.3",
+                  "title": "Dual Formulation and Support Vectors"
+                },
+                {
+                  "code": "9.4",
+                  "title": "The Kernel Trick: Transforming Linear into Non-Linear Space (RBF, Polynomial)"
+                }
+              ]
+            },
+            {
+              "chapter_number": 10,
+              "title": "Chapter 10: Introduction to Deep Learning",
+              "clean_title": "Introduction to Deep Learning",
+              "lessons": [
+                {
+                  "code": "10.1",
+                  "title": "Biological vs. Artificial Neurons: The Perceptron Model"
+                },
+                {
+                  "code": "10.2",
+                  "title": "Multilayer Perceptrons (MLP) and Non-Linear Activation Functions (ReLU, Sigmoid, Tanh)"
+                },
+                {
+                  "code": "10.3",
+                  "title": "Forward Propagation and Loss Functions"
+                },
+                {
+                  "code": "10.4",
+                  "title": "Backpropagation: The Chain Rule of Calculus and Gradient Flow"
+                },
+                {
+                  "code": "10.5",
+                  "title": "Modern Optimizers: Momentum, RMSprop, and Adam"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

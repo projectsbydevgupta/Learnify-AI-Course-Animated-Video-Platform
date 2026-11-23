@@ -1,0 +1,52 @@
+# Environments & Secrets (NEVER commit real keys)
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env.local
+
+# Python & Virtual Environments
+backend/venv/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Node.js & Next.js
+node_modules/
+frontend/node_modules/
+video-engine/node_modules/
+frontend/.next/
+frontend/out/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# Databases, Vector Stores & Generated Media
+backend/courses.db
+backend/*.db
+backend/*.sqlite3
+backend/chroma_db/
+backend/static/videos/*.mp4
+video-engine/public/audio/*.mp3
+video-engine/public/audio/*.wav
+video-engine/temp_props_*.json
+video-engine/out/
+video-engine/build/
+
+# Reports, Presentations & Academic Docs (Excluded from GitHub)
+*.pptx
+*.docx
+*.pdf
+BRAIN.md
+PROJECT_DOCUMENTATION.md
+
+# Tests, Logs & OS Artifacts
+backend/tests/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
