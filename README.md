@@ -22,6 +22,18 @@
 
 ---
 
+## Platform Preview
+
+| Studio Dashboard | Master Curriculum Course Generator |
+| :---: | :---: |
+| ![Learnify Studio Dashboard](docs/assets/dashboard.jpeg) | ![Master Curriculum Course Generator](docs/assets/curriculum-generator.jpeg) |
+
+| Gemini 2.5 Flash LLM-as-a-Judge Verification | Synchronized 1080p Remotion Video Lecture |
+| :---: | :---: |
+| ![Gemini 2.5 Flash Verification Scorecard](docs/assets/judge-verification.jpeg) | ![1080p Remotion Animated Video Player](docs/assets/remotion-video-player.jpeg) |
+
+---
+
 ## Project Structure
 
 ```text
